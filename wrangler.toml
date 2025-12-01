@@ -26,7 +26,7 @@ DEPLOY_TARGET = "cloudflare"
 [[d1_databases]]
 binding = "DB"
 database_name = "starlink" # Change this to the name of your D1 database
-database_id = "ffbcb917-8a78-4ec8-a72d-6b769b1967d6" # wrangler d1 info <YOUR_DATABASE_NAME>
+database_id = "faa9feec-6fd5-4f7b-8cb4-c2fd95b31413" # wrangler d1 info <YOUR_DATABASE_NAME>
 
 [observability.logs]
 enabled = true
