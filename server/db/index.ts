@@ -43,15 +43,3 @@ export const db = async () => {
 
   return drizzle(client, { schema });
 };
-```
-
----
-
-### 操作步骤
-
-1.  **修改代码**：按上面的内容更新这两个文件。
-2.  **提交代码**：
-    ```bash
-    git add .
-    git commit -m "fix: relax env validation and improve db connection logging"
-    git push
